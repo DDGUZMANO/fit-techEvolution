@@ -2,26 +2,26 @@ let indice;
 function imc(peso,estatura){
     return imc = (peso / (estatura*estatura));
 }
-let peso = +prompt(`Ingrese su peso en kilogramos por favor.`);
-let estatura = +prompt(`Ingrese su estatura en metros por favor.`);
+let peso = +prompt('Ingrese su peso en kilogramos por favor.');
+let estatura = +prompt('Ingrese su estatura en metros por favor.');
 indice = imc(peso, estatura);
-alert(`Su indice de masa corporal es `+ indice + `.`);
+alert('Su indice de masa corporal es '+ indice + '.');
 if(indice<18.5){
-    alert(`Usted esta bajo de peso.`);
+    alert('Usted esta bajo de peso.');
 }
 else if(indice>= 18.5 && indice <= 24.9){
-    alert(`Su peso es normal.`);
+    alert('Su peso es normal.');
 }
 else if(indice>= 25 && indice<= 29.9){
-    alert(`Usted tiene sobrepeso.`);
+    alert('Usted tiene sobrepeso.');
 }else{
-    alert(`Usted sufre de obesidad.`);
+    alert('Usted sufre de obesidad.');
 }
 if(indice>= 25){
-    alert(`Le recomendamos seguir nuestros planes alimenticios y de entrenamientos, de esa forma obtendrá los siguientes resultados por semana...`)
+    alert('Le recomendamos seguir nuestros planes alimenticios y de entrenamientos, de esa forma obtendrá los siguientes resultados por semana...')
 }
 if(indice <= 18.5){
-    alert(`Le recomendamos seguir nuestros planes de alimentación y entrenamientos para que alcance su peso ideal de la forma más saludable posible.`)
+    alert('Le recomendamos seguir nuestros planes de alimentación y entrenamientos para que alcance su peso ideal de la forma más saludable posible.')
 }
 let pesoInicial = peso;
 let porcentajeDePeso;
@@ -40,7 +40,7 @@ if(indice >25 ){
 }
 }
 if(indice > 18.5 && indice <= 24.9){
-    alert(`Su peso es ideal, acá encontraras los mejores tips para seguir evolucionando.`);
+    alert('Su peso es ideal, acá encontraras los mejores tips para seguir evolucionando.');
 }
 
 // let nombre = prompt("Dime tu nombre");
