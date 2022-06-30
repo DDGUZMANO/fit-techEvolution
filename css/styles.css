@@ -1,0 +1,15 @@
+.suplements{
+    
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.price{
+    background-color: aquamarine;
+    color: black;
+    font-size: 75px;
+    height: 200px;
+}
